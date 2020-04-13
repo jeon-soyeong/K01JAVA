@@ -28,7 +28,7 @@ public class E13MyFriendDeserializable {
 			}
 		}
 		catch (Exception e) {
-//			e.printStackTrace();
+			e.printStackTrace();
 		}
 	}
 }

@@ -89,7 +89,6 @@ public class QuBaseballGame {
 				System.out.printf("%d번째 재시도\n", gameCount++);
 				System.out.println();
 			}
-		
 	}
 	
 	}

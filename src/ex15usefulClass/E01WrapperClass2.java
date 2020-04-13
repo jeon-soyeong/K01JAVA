@@ -62,6 +62,7 @@ public class E01WrapperClass2 {
 		/*
 		 5]isWhitespace() : 공백문자인지 판단하는 메소드
 		 */
+
 		System.out.println("isWhitespace()메소드로 공백문자 판단");
 		System.out.println(Character.isWhitespace('A'));
 		System.out.println(Character.isWhitespace(' '));//true

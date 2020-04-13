@@ -68,27 +68,27 @@ public class Ex04HashSet1 {
 		 6]저장된 객체 출력
 		 	: 순서없이 저장되므로 출력도 순서를 지정할 수 없다. 
 		 */
-		Iterator itr =  set.iterator();
-		while(itr.hasNext()) {
-			Object object = itr.next();
-			
-			if(object instanceof String) {
-				System.out.println("String타입:"+ object);
-			}
-			else if(object instanceof Date) {
-				System.out.println("Date타입:"+ object);
-			}
-			else if(object instanceof Integer) {
-				System.out.println("Int"
-						+ "eger타입:"+ object);
-			}
-			else if(object instanceof Teacher) {
-				System.out.println("Teacher타입:"+ object);
-			}
-			else {
-				System.out.println("넌 뭐임??-_-;");
-			}
-		}//end of while
+//		Iterator itr =  set.iterator();
+//		while(itr.hasNext()) {
+//			Object object = itr.next();
+//			
+//			if(object instanceof String) {
+//				System.out.println("String타입:"+ object);
+//			}
+//			else if(object instanceof Date) {
+//				System.out.println("Date타입:"+ object);
+//			}
+//			else if(object instanceof Integer) {
+//				System.out.println("Int"
+//						+ "eger타입:"+ object);
+//			}
+//			else if(object instanceof Teacher) {
+//				System.out.println("Teacher타입:"+ object);
+//			}
+//			else {
+//				System.out.println("넌 뭐 임??-_-;");
+//			}
+//		}//end of while
 		
 		//1-7]검색
 		System.out.println(set.contains(strObject1)? "strObject1있다"

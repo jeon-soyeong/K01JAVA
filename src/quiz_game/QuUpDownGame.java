@@ -42,6 +42,7 @@ public class QuUpDownGame {
 					}
 					else if(com==user){
 						System.out.println("성공");
+						break;
 					}
 				}
 				
@@ -61,7 +62,8 @@ public class QuUpDownGame {
 				}
 				else{
 					System.out.println("게임 종료");
-					scan.nextInt();
+					return;
+//					scan.nextLine();
 				}
 		}	
 	}

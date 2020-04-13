@@ -2,6 +2,7 @@ package common;
 
 public class Person {
 	
+	public int stage;
 	public String name;
 	public int age;
 	

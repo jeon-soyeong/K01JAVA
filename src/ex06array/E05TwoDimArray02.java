@@ -12,8 +12,8 @@ public class E05TwoDimArray02 {
 		/*
 		 가로, 세로 크기만큼 반복하면서 초기화진행.
 		 */
-		for(int i=0; i<3; i++) {
-			for(int j =0; j<4; j++) {
+		for(int i=0; i<3; i++) {//0,1,2
+			for(int j =0; j<4; j++) {//0,1,2,3
 				arr2Dim[i][j] = i+j;
 			}
 		}

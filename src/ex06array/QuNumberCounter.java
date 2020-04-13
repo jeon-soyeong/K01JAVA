@@ -36,6 +36,7 @@ public class QuNumberCounter {
 				counter[2] = count2 ;
 			}
 			else if(answer[i]==4) {
+				
 				count3 += 1;
 				counter[3] = count3 ;
 			}
